@@ -1,0 +1,76 @@
+doctype html
+html.no-js(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		title GSA
+		meta(name='description', content='')
+		meta(name='keywords', content='')
+		meta(name='author', content='GSA')
+		//- link(rel='shortcut icon', href='../favicon.ico')
+		link(href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700', rel='stylesheet', type='text/css')
+		link(rel='stylesheet', type='text/css', href='assets/css/screen.css')
+		script(src='assets/javascript/vendor/modernizr.custom.min.js')
+	body
+		.container
+			
+			include render/_header
+			include render/_overlay
+
+			#slideshow.dragslider
+				
+				section.img-dragger.img-dragger-large.dragdealer
+					.handle
+						.slide.slide-inicio( data-content="content-inicio" )
+							img.logo(src="assets/img/gsa.svg", alt="GSA")
+							.img-wrap
+								img( src="assets/img/1.jpg" alt="img1" )
+							h2
+								| GSA
+								span Lorem ipsum Dolor anim commodo eu ullamco amet laboris
+							button.content-switch Ver más
+						.slide( data-content="content-empresa" )
+							.img-wrap
+								img( src="assets/img/1.jpg" alt="img1" )
+							h2
+								| Empresa
+								span Lorem ipsum Dolor anim commodo eu ullamco amet laboris
+							button.content-switch Ver más
+						.slide( data-content="content-productos" )
+							.img-wrap
+								img( src="assets/img/1.jpg" alt="img1" )
+							h2
+								| Productos
+								span Lorem ipsum Dolor anim commodo eu ullamco amet laboris
+							button.content-switch Ver más
+						.slide( data-content="content-servicios" )
+							.img-wrap
+								img( src="assets/img/1.jpg" alt="img1" )
+							h2
+								| Servicios
+								span Lorem ipsum Dolor anim commodo eu ullamco amet laboris
+							button.content-switch Ver más
+						.slide( data-content="content-contacto" )
+							.img-wrap
+								img( src="assets/img/1.jpg" alt="img1" )
+							h2
+								| Contacto
+								span Lorem ipsum Dolor anim commodo eu ullamco amet laboris
+							button.content-switch Ver más
+
+				section.pages
+					.content( data-content="content-inicio" )
+						include render/_content-inicio
+					.content( data-content="content-empresa" )
+						include render/_content-empresa
+					.content( data-content="content-productos" )
+						include render/_content-productos
+					.content( data-content="content-servicios" )
+						include render/_content-servicios
+					.content( data-content="content-contacto" )
+						include render/_content-contacto
+
+		script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
+		script(src="assets/javascript/main.min.js")
+
