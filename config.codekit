@@ -243,6 +243,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/img\/productos\/pxcpntact.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/productos\/pxcpntact.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/productos\/pxcpntact.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/img\/productos\/rittal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/productos\/rittal.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/productos\/rittal.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/img\/productos\/sew.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11805,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/productos\/sew.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/productos\/sew.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/img\/productos\/siemens.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8274,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/productos\/siemens.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/productos\/siemens.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/javascript\/main.min.js": {
 		"fileType": 64,
 		"ignore": 1,
