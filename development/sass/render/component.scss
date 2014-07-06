@@ -52,6 +52,9 @@ html.js,
   font-size: 1.5em;
   text-align: left;
 }
+.pages .content.show .tab a h3{
+  border-bottom: 1px solid #ccc
+}
 
 .no-js .dragslider h2 {
 	padding: 15px;
@@ -387,12 +390,13 @@ button.content-switch::before {
   list-style: disc inside none;
 }
 
-.pages .content p:last-child {
-	padding: 5em 1em 8em;
-	text-align: center;
-	font-weight: bold;
-}
+// .pages .content p:last-child {
+// 	padding: 5em 1em 8em;
+// 	text-align: center;
+// 	font-weight: bold;
+// }
 
+.js .pages .content h3,
 .js .pages .content h2,
 .js .pages .content p {
 	-webkit-transform: translate3d(0,200px,0);
@@ -404,7 +408,11 @@ button.content-switch::before {
 	-webkit-transition-timing-function: cubic-bezier(.7,0,.3,1);
 	transition-timing-function: cubic-bezier(.7,0,.3,1);
 }
+.js .pages .content p.related{
+  padding: 5em 2.5em;
+}
 
+.pages .content.show h3,
 .pages .content.show h2,
 .pages .content.show p {
 	-webkit-transition-duration: 1s;
@@ -474,9 +482,10 @@ ul.gallery{
     width: 50%;
     float: left;
     height: 300px;
-    text-align: center;
+    text-align: center !important;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
+    padding: 0 !important;
   }
     ul.gallery img{
       width: auto;
@@ -489,6 +498,12 @@ ul.gallery{
       left: 0;
       right: 0;
     }
+.tab .container{
+  display: none;
+}
+  .tab .el{
+    position: relative;
+  }
 
 @media screen and (max-width: 63.125em) {
 	.dragslider h2 {
@@ -503,6 +518,9 @@ ul.gallery{
   .pages .content h3 {
     padding: 0.5em 1.5em;
   }
+  ul.gallery{
+    margin-top: 2em
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -515,4 +533,7 @@ ul.gallery{
 	button.slider-switch {
 		display: none;
 	}
+  ul.gallery li{
+    width: 100%;
+  }
 }

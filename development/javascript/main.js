@@ -1,6 +1,7 @@
 // @codekit-prepend "dragdealer.js"
 // @codekit-prepend "classie.js"
 // @codekit-prepend "dragslideshow.js"
+// @codekit-prepend "accordion.js"
 $(document).ready(function() {
 
     var overlay = document.getElementById('overlay'),
