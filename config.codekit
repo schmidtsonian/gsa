@@ -155,6 +155,16 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1
 		},
+	"\/development\/views\/render\/_contact.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/render\/_contact.jade",
+		"outputAbbreviatedPath": "\/public\/_contact.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/development\/views\/render\/_content-contacto.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -168,7 +178,7 @@
 	"\/development\/views\/render\/_content-empresa.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/views\/render\/_content-empresa.jade",
 		"outputAbbreviatedPath": "\/public\/_content-empresa.html",
@@ -225,6 +235,14 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/public\/_contact.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/_contact.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/public\/assets\/css\/screen.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -243,6 +261,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/img\/10521753_10154367457905331_838438033_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73353,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/10521753_10154367457905331_838438033_n.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/10521753_10154367457905331_838438033_n.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/img\/contacto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66451,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/contacto.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/contacto.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/img\/dust.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 771,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/dust.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/dust.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/img\/dust.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45541,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/dust.png",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/dust.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/img\/gsa-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -250,6 +308,26 @@
 		"initialSize": 112095,
 		"inputAbbreviatedPath": "\/public\/assets\/img\/gsa-logo.png",
 		"outputAbbreviatedPath": "\/public\/assets\/img\/gsa-logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/img\/inicio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101537,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/inicio.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/inicio.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/img\/productos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102570,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/productos.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/productos.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -263,13 +341,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/assets\/img\/productos\/rittal.jpg": {
+	"\/public\/assets\/img\/productos\/Rittal.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/public\/assets\/img\/productos\/rittal.jpg",
-		"outputAbbreviatedPath": "\/public\/assets\/img\/productos\/rittal.jpg",
+		"inputAbbreviatedPath": "\/public\/assets\/img\/productos\/Rittal.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/productos\/Rittal.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -293,15 +371,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/assets\/javascript\/accordion.min.js": {
-		"fileType": 64,
-		"ignore": 1,
+	"\/public\/assets\/img\/servicios.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/assets\/javascript\/accordion.min.js",
-		"outputAbbreviatedPath": "\/public\/assets\/javascript\/accordion.min.min.js",
+		"initialSize": 90259,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/servicios.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/servicios.jpg",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"processed": 0
 		},
 	"\/public\/assets\/javascript\/main.min.js": {
 		"fileType": 64,
@@ -322,14 +400,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/public\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
